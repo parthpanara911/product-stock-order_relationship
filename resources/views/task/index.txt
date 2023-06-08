@@ -1,0 +1,7 @@
+In the above code, we bind the input event to the #prize and #quantity fields using jQuery. Whenever the user enters or changes a value in either of these fields, the JavaScript code calculates the total prize by multiplying the prize and quantity values and updates the #total_prize field accordingly.
+
+The parseFloat() function is used to convert the input values to float numbers. We also check if the parsed values are not NaN (Not-a-Number) before performing the calculation.
+
+The toFixed(2) function is used to round the total prize value to two decimal places.
+
+The readonly attribute is added to the #total_prize field to prevent manual input.
